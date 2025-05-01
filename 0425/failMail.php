@@ -19,7 +19,6 @@ if ($result = mysqli_query($link, $sql)){
     $row = mysqli_fetch_assoc($result);
     $name=$row["name"];
     $to=$row["email"];
-    echo $to;
     $photo=$row["photo"];
 }
 
